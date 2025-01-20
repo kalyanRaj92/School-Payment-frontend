@@ -37,9 +37,9 @@ const TransactionList = () => {
   const currentRows = filteredTransactions.slice(indexOfFirstRow, indexOfLastRow);
 
   // Handle page change
-  const handlePageChange = (pageNumber) => {
+  /*const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
-  };
+  };*/
 
   // Handle previous and next page
   const handlePreviousPage = () => {
